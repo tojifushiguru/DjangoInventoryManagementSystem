@@ -130,6 +130,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'                     # bootstrap template crispy-form uses
 
 LOGIN_REDIRECT_URL = 'home'                             # sets the login redirect to the 'home' page after login
